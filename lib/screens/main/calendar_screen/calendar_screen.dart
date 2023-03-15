@@ -45,8 +45,8 @@ class _CalendarScreenState extends State<CalendarScreen> {
         ),
         child: Column(
           children: [
-            //CalendarWidget(),
-            CalendarScreenWidget(),
+            CalendarWidget(),
+            //CalendarScreenWidget(),
             Expanded(child: EventListWidget()),
           ],
         ),
